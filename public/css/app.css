@@ -1,0 +1,70 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body main {
+  flex-grow: 1;
+}
+
+.main-header nav {
+  margin-left: 1rem;
+}
+.main-header ul {
+  list-style: none;
+  height: 100%;
+}
+.main-header ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  border-bottom: 5px solid transparent;
+}
+.main-header ul li img {
+  height: 100%;
+}
+.main-header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #43514d;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.main-header ul li.active {
+  border-bottom: 5px solid #0b7beb;
+}
+.main-header ul li.active a {
+  color: #0b7beb;
+}
+
+.main-footer {
+  border-top: 10px solid #0b7beb;
+  background-color: #303030;
+  padding: 2rem 0;
+}
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+.main-footer .container .signup a {
+  color: #fff;
+  padding: 0.5rem;
+  border: 2px solid #0b7beb;
+  font-weight: 700;
+  text-decoration: none;
+}
+.main-footer .container .social ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  color: #0b7beb;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.main-footer .container .social ul li {
+  margin: 0 0.5rem;
+}

@@ -1,0 +1,38 @@
+.main-header {
+    nav {
+        margin-left: 1rem;
+    }
+
+    ul {
+        list-style: none;
+        height: 100%;
+
+        li {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            margin: 0 1rem;
+            border-bottom: 5px solid transparent;
+
+            img {
+                height: 100%;
+            }
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $secondary-color;
+                font-weight: 700;
+                font-size: 1.2rem;
+            }
+
+            &.active {
+                border-bottom: 5px solid $main-dc-color;
+
+                a {
+                    color: $main-dc-color;
+                }
+            }
+        }
+    }
+}
