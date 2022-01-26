@@ -1,0 +1,15 @@
+main.comics {
+    height: 100%;
+    background: $secondary-bg;
+    color: $main-bg;
+    text-transform: uppercase;
+
+    .thumb {
+        height: 200px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}

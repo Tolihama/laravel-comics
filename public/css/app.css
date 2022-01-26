@@ -7,6 +7,16 @@ body main {
   flex-grow: 1;
 }
 
+.site-btn {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  background-color: #0b7beb;
+  padding: 0.5rem 3rem;
+  border: 0;
+}
+
 .main-header nav {
   margin-left: 1rem;
 }
@@ -67,4 +77,18 @@ body main {
 }
 .main-footer .container .social ul li {
   margin: 0 0.5rem;
+}
+
+main.comics {
+  height: 100%;
+  background: #1c1c1c;
+  color: #fff;
+  text-transform: uppercase;
+}
+main.comics .thumb {
+  height: 200px;
+  overflow: hidden;
+}
+main.comics .thumb img {
+  width: 100%;
 }
