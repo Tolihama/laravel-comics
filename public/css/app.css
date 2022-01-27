@@ -85,10 +85,41 @@ main.comics {
   color: #fff;
   text-transform: uppercase;
 }
-main.comics .thumb {
+main.comics .comic-card {
+  text-decoration: none;
+  color: #fff;
+}
+main.comics .comic-card .thumb {
   height: 200px;
   overflow: hidden;
 }
-main.comics .thumb img {
+main.comics .comic-card .thumb img {
   width: 100%;
+}
+
+main.comic-details .jumbo {
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 50px solid #0b7beb;
+}
+main.comic-details .jumbo .thumb {
+  transform: translateY(50px);
+}
+main.comic-details .info .title {
+  text-transform: uppercase;
+  color: #103f5d;
+}
+main.comic-details .info .green-tab {
+  padding: 0.5rem 2rem;
+  margin: 1.5rem 0 1rem;
+  background-color: #55ba5a;
+  color: #a9ec78;
+  font-weight: 700;
+}
+main.comic-details .info .green-tab .price {
+  color: #fff;
+}
+main.comic-details .info .desc {
+  font-weight: 500;
 }

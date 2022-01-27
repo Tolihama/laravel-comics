@@ -1,0 +1,35 @@
+main.comic-details {
+    .jumbo {
+        background-image: url('../images/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 50px solid $main-dc-color;
+
+        .thumb {
+            transform: translateY(50px);
+        }
+    }
+
+    .info {
+        .title {
+            text-transform: uppercase;
+            color: $secondary-dc-color;
+        }
+
+        .green-tab {
+            padding: .5rem 2rem;
+            margin: 1.5rem 0 1rem;
+            background-color: #55ba5a;
+            color: #a9ec78;
+            font-weight: 700;
+
+            .price {
+                color: #fff;
+            }
+        }
+
+        .desc {
+            font-weight: 500;
+        }
+    }
+}

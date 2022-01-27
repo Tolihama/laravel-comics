@@ -13,7 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// Comics home
 Route::get('/', function () {
     $comics = config('comics');
     return view('comics', compact('comics'));
 })->name('comics');
+
+// Comic detail page
+Route::get('/comic/{id}', function($id) {
+    $comics = config('comics');
+
+    if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
+        $comic = $comics[$id];
+    } else {
+        abort(404);
+    }
+
+    return view('comic-details', compact('comic'));
+})->name('comic-details');

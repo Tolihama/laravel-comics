@@ -4,12 +4,17 @@ main.comics {
     color: $main-bg;
     text-transform: uppercase;
 
-    .thumb {
-        height: 200px;
-        overflow: hidden;
+    .comic-card {
+        text-decoration: none;
+        color: $main-bg;
 
-        img {
-            width: 100%;
+        .thumb {
+            height: 200px;
+            overflow: hidden;
+    
+            img {
+                width: 100%;
+            }
         }
     }
 }

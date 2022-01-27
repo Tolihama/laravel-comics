@@ -4,7 +4,7 @@
         <nav class="h100">
             <ul class="d-flex">
                 <li class="active">
-                    <a href="#">Comics</a>
+                    <a href="{{ route('comics') }}">Comics</a>
                 </li>
                 <li>
                     <a href="#">News</a>
